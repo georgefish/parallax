@@ -1,0 +1,150 @@
+
+/* Resets */
+*,
+*::after,
+*::before {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 1 rem */
+}
+
+
+
+.hero-image{
+    background-image: url("/thumb-1920-1337261.png");
+  height: 95vh;
+  position: relative; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+
+
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-image-2 {
+  background-image: url("/4439920-hd-wallpapers.jpg");
+  height: 50vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  position: relative;
+  background-color: white;
+  margin: 0 auto;
+  max-width: 128rem; 
+}
+
+.row {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 5rem; 
+}
+
+.column {
+  text-align: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+
+  .card {
+    width: 40%;
+    /* height: 30rem; */
+    padding: 5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    margin: 0.5rem;
+    display: flex;
+  }
+
+
+.row {
+  height: 50rem;
+}
+
+.row-1 {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.row-3 {
+  height: 50rem;
+  border: 1px solid black;
+}
+
+
+
+.hero-text {
+  top: auto;
+  bottom: auto;
+  position: relative;
+  text-align: center;
+  font-size: 15rem;
+  /* padding-top: 25vh; */
+  color: #FAF9F6;
+  backdrop-filter: blur(2px) saturate(70%);
+
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  object-fit: cover;
+  z-index: 1;
+  transform: translateZ(1px);
+}
+
+
+ .fa-angle-down {
+  font-size: 40px;
+
+
+  border-radius: 5px;
+  margin-top: -1px;
+  position: relative;
+  padding: 5px;
+  
+  box-shadow: 0px 10px 41px 23px rgba(0,0,0,0.1);
+  z-index: 5;
+background-color: #fff;
+ }
+
+ .arrow-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
+
+ }
