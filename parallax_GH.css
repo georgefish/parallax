@@ -1,0 +1,11 @@
+
+.place_image {
+    background-image: url(/images/hero_fisherman.jpg); /* Replace with your image URL */
+    height: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
